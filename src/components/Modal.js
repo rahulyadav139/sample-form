@@ -1,7 +1,7 @@
 import styles from './Modal.module.css';
 import ReactDOM from 'react-dom';
 import { Fragment } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { authActions } from './store';
 
 import useInput from '../components/hooks/use-input';
