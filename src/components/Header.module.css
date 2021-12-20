@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a374d;
+  color: white;
+  padding: 1rem;
+}
+
+.brand h4 {
+  font-weight: 400;
+}
+
+.items {
+  list-style: none;
+  display: flex;
+}
+
+.item {
+  margin: auto 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.item.logging {
+  background-color: white;
+  color: #1a374d;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
